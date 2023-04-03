@@ -15,6 +15,13 @@ public class Program
 {
 	// C:\EclipseProjetos\desafio_analise_vendas_02\in.csv
 	
+	/*
+	 * Quero deixar aqui meu agradecimento a professora Luciene Oliveira
+	 * que indicou o código de uso do map para a solução do desafio. Eu
+	 * estava usando o Set e me perdi sobre qual estrura usar depois para
+	 * filtrar e exibir o resultado. Muito obrigado, professora!
+	 */
+	
 	public static void main(String[] args)
 	{
 		Locale.setDefault(Locale.US);

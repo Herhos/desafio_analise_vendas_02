@@ -83,8 +83,7 @@ public class Sale
 	@Override
 	public int hashCode()
 	{
-		return Objects.hash(seller);
-		//items, month, year, total
+		return Objects.hash(seller);		
 	}
 
 	@Override
@@ -97,9 +96,7 @@ public class Sale
 		if (getClass() != obj.getClass())
 			return false;
 		Sale other = (Sale) obj;
-		return Objects.equals(seller, other.seller);
-		//Objects.equals(items, other.items) && Objects.equals(month, other.month)
-		//&& Objects.equals(year, other.year) && Objects.equals(total, other.total) 
+		return Objects.equals(seller, other.seller);		 
 	}
 
 	@Override
